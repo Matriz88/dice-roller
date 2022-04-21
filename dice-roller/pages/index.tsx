@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import { useState } from 'react'
 import Head from 'next/head'
 import { TextField, Button, Stack, Box, Grid, Container } from '@mui/material'
-import styles from '../styles/Home.module.css'
 
 type Dice = {
   number: number | null
